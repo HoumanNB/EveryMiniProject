@@ -108,7 +108,7 @@ while chance > -1:
         chance -= 1
         del(guess)
         
-    if guess == "surrender":
+    if type(guess) == str and guess == "surrender":
         print(f"Well, ok then. The number was {num}. \nBetter luck next time!")
         del(guess)
         chance == -1
@@ -117,7 +117,7 @@ while chance > -1:
         print("Be careful, This is you last chnace!")
         
     
-    if guess == "clue": 
+    if type(guess) == str and guess == "clue": 
         if input("Gwtting a clue costs you a chance, are you sure? (Y/N)") == "Y": 
             print(clue())  
             if clue != None: print(f"And here's the clue that player one wrote: {p_clue}")
@@ -126,7 +126,7 @@ while chance > -1:
             print("Ok then, back to the game!")
             continue
     
-    if guess == "chances" and chance != 1:    
+    if type(guess) == str and guess == "chances" and chance != 1:    
         print (f"You have {chance} chances left")
     else:
         print("You only have one chance left...")
