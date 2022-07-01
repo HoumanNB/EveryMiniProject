@@ -1,6 +1,6 @@
 # Status: ***Incompltete***
 
-# Complexity: ***Normalt to high***
+# Complexity: ***Normal to high***
 
 # Features Status
 ## Working Features: *None*
