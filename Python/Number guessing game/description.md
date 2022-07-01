@@ -1,9 +1,9 @@
-# Status: Incompltete
+# Status: ***Incompltete***
 
-# Complexity: Normalt to high
+# Complexity: ***Normalt to high***
 
 # Features Status
-## Working Features: None
+## Working Features: *None*
 ## Upcoming features:
 ## All the features:
 
