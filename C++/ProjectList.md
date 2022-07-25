@@ -4,7 +4,7 @@
  
 ## Projects ##
 
-###Begginer:
+###Begginer:###
 - Number guessing
 - Text base adventure game
 - Dice rolling simulator
@@ -18,7 +18,7 @@
 - Mesurement unit convertor
 - 
 
-###Intermediate:
+###Intermediate:###
 - Calculator 
 - Random password generator 
 - Alarm clock
